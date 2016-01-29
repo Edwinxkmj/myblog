@@ -1,0 +1,65 @@
+[29-Jan-2016 16:56:13 PRC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in E:\ide\phpStudy\WWW\advanced\frontend\controllers\IndexController.php on line 13
+[29-Jan-2016 16:56:13 PRC] PHP Stack trace:
+[29-Jan-2016 16:56:13 PRC] PHP   1. {main}() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:0
+[29-Jan-2016 16:56:13 PRC] PHP   2. yii\base\Application->run() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:18
+[29-Jan-2016 16:56:13 PRC] PHP   3. yii\web\Application->handleRequest() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Application.php:375
+[29-Jan-2016 16:56:13 PRC] PHP   4. yii\base\Module->runAction() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\web\Application.php:84
+[29-Jan-2016 16:56:13 PRC] PHP   5. yii\base\Module->createController() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:449
+[29-Jan-2016 16:56:13 PRC] PHP   6. yii\base\Module->createControllerByID() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:521
+[29-Jan-2016 16:56:13 PRC] PHP   7. class_exists() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:563
+[29-Jan-2016 16:56:13 PRC] PHP   8. yii\BaseYii::autoload() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:0
+[29-Jan-2016 16:56:41 PRC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in E:\ide\phpStudy\WWW\advanced\frontend\controllers\IndexController.php on line 13
+[29-Jan-2016 16:56:41 PRC] PHP Stack trace:
+[29-Jan-2016 16:56:41 PRC] PHP   1. {main}() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:0
+[29-Jan-2016 16:56:41 PRC] PHP   2. yii\base\Application->run() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:18
+[29-Jan-2016 16:56:41 PRC] PHP   3. yii\web\Application->handleRequest() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Application.php:375
+[29-Jan-2016 16:56:41 PRC] PHP   4. yii\base\Module->runAction() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\web\Application.php:84
+[29-Jan-2016 16:56:41 PRC] PHP   5. yii\base\Module->createController() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:449
+[29-Jan-2016 16:56:41 PRC] PHP   6. yii\base\Module->createControllerByID() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:521
+[29-Jan-2016 16:56:41 PRC] PHP   7. class_exists() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:563
+[29-Jan-2016 16:56:41 PRC] PHP   8. yii\BaseYii::autoload() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:0
+[29-Jan-2016 17:02:32 PRC] PHP Fatal error:  Class 'Html' not found in E:\ide\phpStudy\WWW\advanced\frontend\views\index\index.php on line 26
+[29-Jan-2016 17:02:32 PRC] PHP Stack trace:
+[29-Jan-2016 17:02:32 PRC] PHP   1. {main}() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:0
+[29-Jan-2016 17:02:32 PRC] PHP   2. yii\base\Application->run() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:18
+[29-Jan-2016 17:02:32 PRC] PHP   3. yii\web\Application->handleRequest() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Application.php:375
+[29-Jan-2016 17:02:32 PRC] PHP   4. yii\base\Module->runAction() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\web\Application.php:84
+[29-Jan-2016 17:02:32 PRC] PHP   5. yii\base\Controller->runAction() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:455
+[29-Jan-2016 17:02:32 PRC] PHP   6. yii\base\InlineAction->runWithParams() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php:151
+[29-Jan-2016 17:02:32 PRC] PHP   7. call_user_func_array:{E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55
+[29-Jan-2016 17:02:32 PRC] PHP   8. frontend\controllers\IndexController->actionIndex() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55
+[29-Jan-2016 17:02:32 PRC] PHP   9. yii\base\Controller->render() E:\ide\phpStudy\WWW\advanced\frontend\controllers\IndexController.php:14
+[29-Jan-2016 17:02:32 PRC] PHP  10. yii\base\View->render() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php:371
+[29-Jan-2016 17:02:32 PRC] PHP  11. yii\base\View->renderFile() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:149
+[29-Jan-2016 17:02:32 PRC] PHP  12. yii\base\View->renderPhpFile() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:247
+[29-Jan-2016 17:02:32 PRC] PHP  13. require() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:325
+[29-Jan-2016 17:03:19 PRC] PHP Fatal error:  Class 'Html' not found in E:\ide\phpStudy\WWW\advanced\frontend\views\index\index.php on line 26
+[29-Jan-2016 17:03:19 PRC] PHP Stack trace:
+[29-Jan-2016 17:03:19 PRC] PHP   1. {main}() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:0
+[29-Jan-2016 17:03:19 PRC] PHP   2. yii\base\Application->run() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:18
+[29-Jan-2016 17:03:19 PRC] PHP   3. yii\web\Application->handleRequest() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Application.php:375
+[29-Jan-2016 17:03:19 PRC] PHP   4. yii\base\Module->runAction() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\web\Application.php:84
+[29-Jan-2016 17:03:19 PRC] PHP   5. yii\base\Controller->runAction() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:455
+[29-Jan-2016 17:03:19 PRC] PHP   6. yii\base\InlineAction->runWithParams() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php:151
+[29-Jan-2016 17:03:19 PRC] PHP   7. call_user_func_array:{E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55
+[29-Jan-2016 17:03:19 PRC] PHP   8. frontend\controllers\IndexController->actionIndex() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55
+[29-Jan-2016 17:03:19 PRC] PHP   9. yii\base\Controller->render() E:\ide\phpStudy\WWW\advanced\frontend\controllers\IndexController.php:15
+[29-Jan-2016 17:03:19 PRC] PHP  10. yii\base\View->render() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php:371
+[29-Jan-2016 17:03:19 PRC] PHP  11. yii\base\View->renderFile() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:149
+[29-Jan-2016 17:03:19 PRC] PHP  12. yii\base\View->renderPhpFile() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:247
+[29-Jan-2016 17:03:19 PRC] PHP  13. require() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:325
+[29-Jan-2016 17:07:36 PRC] PHP Fatal error:  Class 'Html' not found in E:\ide\phpStudy\WWW\advanced\frontend\views\index\index.php on line 26
+[29-Jan-2016 17:07:36 PRC] PHP Stack trace:
+[29-Jan-2016 17:07:36 PRC] PHP   1. {main}() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:0
+[29-Jan-2016 17:07:36 PRC] PHP   2. yii\base\Application->run() E:\ide\phpStudy\WWW\advanced\frontend\web\index.php:18
+[29-Jan-2016 17:07:36 PRC] PHP   3. yii\web\Application->handleRequest() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Application.php:375
+[29-Jan-2016 17:07:36 PRC] PHP   4. yii\base\Module->runAction() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\web\Application.php:84
+[29-Jan-2016 17:07:36 PRC] PHP   5. yii\base\Controller->runAction() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:455
+[29-Jan-2016 17:07:36 PRC] PHP   6. yii\base\InlineAction->runWithParams() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php:151
+[29-Jan-2016 17:07:36 PRC] PHP   7. call_user_func_array:{E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55}() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55
+[29-Jan-2016 17:07:36 PRC] PHP   8. frontend\controllers\IndexController->actionIndex() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php:55
+[29-Jan-2016 17:07:36 PRC] PHP   9. yii\base\Controller->render() E:\ide\phpStudy\WWW\advanced\frontend\controllers\IndexController.php:15
+[29-Jan-2016 17:07:36 PRC] PHP  10. yii\base\View->render() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php:371
+[29-Jan-2016 17:07:36 PRC] PHP  11. yii\base\View->renderFile() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:149
+[29-Jan-2016 17:07:36 PRC] PHP  12. yii\base\View->renderPhpFile() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:247
+[29-Jan-2016 17:07:36 PRC] PHP  13. require() E:\ide\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\View.php:325
